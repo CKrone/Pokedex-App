@@ -1,0 +1,1 @@
+Projeto Prático do curso de Angular, em progresso, ministrado por Dener Troquatte na plataforma da Udemy.
