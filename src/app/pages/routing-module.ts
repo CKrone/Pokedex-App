@@ -6,7 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
     //Lazy load
     { path: '', component: HomeComponent },
-    { path: 'details', component: DetailsComponent }
+    { path: 'details/:id', component: DetailsComponent }
 ];
 
 @NgModule({
