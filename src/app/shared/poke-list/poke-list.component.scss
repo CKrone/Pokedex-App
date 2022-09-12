@@ -6,12 +6,15 @@
     display: flex;
     justify-content: space-between;
     padding: rem-calc(20) 0;
+    flex-wrap: wrap;
     
     .pokemon {
         position: relative;
         display: flex;
         width: calc(49% - rem-calc(40));
         height: calc(rem-calc(157) - rem-calc(40));
+
+        margin-bottom: rem-calc(10);
 
         background-color: var(--branco);
         border-radius: rem-calc(10);
@@ -23,6 +26,7 @@
                 font-style: italic;
                 font-weight: 700;
                 margin-bottom: rem-calc(10);
+                text-transform: capitalize;
             }
 
             ul {
@@ -62,8 +66,8 @@
             background: url('../../../assets/bg/background-list-pokemon.svg') no-repeat;
 
             img {
-                width: rem-calc(80);
-                margin-left: 1em;
+                width: rem-calc(65);
+                margin-left: 1.5em;
             }
         }
     }
