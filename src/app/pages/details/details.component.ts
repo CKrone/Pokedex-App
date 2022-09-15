@@ -21,7 +21,6 @@ export class DetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPokemon();
-
   }
 
   public getPokemon() {
